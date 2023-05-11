@@ -1,0 +1,79 @@
+Q1: Who developed Python Programming language?
+A1: Python Programming language was developed by Guido van Rossum.
+
+Q2: Which type of programming does python support?
+A2: Python supports Object Oriented Programming along with imperative, functional and procedural paradigm.
+
+Q3: Is python case sensitive when dealing with identifiers?
+A3: Yes, Python is case sensitive when dealing with identifiers.
+
+Q4: What is the correct extension of the Python file?
+A4: The correct extension of the Python file is .py
+
+Q5: Is Python code compiled or interpreted?
+A5: Python is both compiled and interpreted. 
+This means that when a Python program is run, it is first compiled to bytecode, which is a low-level representation of the Python code that can be executed by the Python virtual machine (PVM). 
+The bytecode is then interpreted by the PVM, which converts it to machine code and executes it.
+
+Q6: Name a few blocks of code used to define in Python Language.
+A6: A function block
+    A for loop block
+    A class definition block, etc.
+    
+Q7: State a character used to give single-line comments in Python.
+A7: A character used to give single-line comments in Python is the hashtag symbol (#)
+
+Q8: Mention functions which can help us to find the version of python that we are currently working on.
+A8: Following are some functions:
+    sys.version
+    sys.version_info
+    platform.python_version()
+    platform.python_version_tuple()
+    
+Q9: Python supports the creation of anonymous functions at runtime, using a construct called _________
+A9: lambda
+
+Q10: What does pip stands for python?
+A10: PIP stands for Pip Installs Packages or Pip Installs Python.
+
+Q11: Mention a few built-in functions in python.
+A11: Some built-in functions are as follows:
+     len()
+     type()
+     print()
+     input(), etc.
+     
+Q12: What is the maximum possible length of an identifier in Python?
+A12: There is no maximum possible length of an identifier in Python, as the language allows identifiers to be unlimited in length. 
+However, according to the PEP-8 style guide, which is a set of recommendations for writing Python code in a consistent and readable way, it is suggested to limit all lines to a maximum of 79 characters.
+
+Q13: What are the benefits of using Python?
+A13: The benefits are as follows:
+     Easy to learn and use
+     Large and Active community
+     Open source and cross platform
+     Versatile and Powerful.
+     
+Q14: How is memory managed in python ?
+A14: Some of the features of memory management in Python are:
+         Automatic memory allocation and deallocation
+         Reference counting
+         Garbage collection
+         
+Q15: How to install Python on Windows and set path variables?
+A15: 
+To install Python on Windows and set path variables, you can follow these steps:
+
+- Download the latest version of Python from https://www.python.org/downloads/windows/ . Choose the installer that matches your system architecture (32-bit or 64-bit) and download it to your computer.
+- Run the installer and follow the instructions on the screen. You can choose either the default installation or customize it according to your preferences. Make sure to check the option "Add Python X.X to PATH" at the bottom of the first page, where X.X is the version of Python you are installing. This will automatically add Python to your Windows PATH variable, which allows you to run Python from any command prompt or PowerShell window.
+- To verify that Python is installed and added to PATH, open a command prompt or PowerShell window and type `python --version`. You should see the output showing the version of Python you installed. You can also type `python` to enter the interactive Python shell and run some commands.
+- If you want to change or add more paths to your Windows PATH variable, you can do so by following these steps:
+    - Open the Control Panel and go to System and Security > System > Advanced system settings.
+    - Click on the Environment Variables button at the bottom of the System Properties window.
+    - In the User variables section, select the variable named PATH and click on Edit. If there is no such variable, click on New and create one with the name PATH.
+    - In the Edit environment variable window, you can add or remove paths by using the buttons on the right. Each path should be separated by a semicolon (;). Make sure to include the path to your Python installation directory and any other directories that contain Python scripts or modules that you want to use.
+    - Click on OK to save your changes and close all windows. You may need to restart your command prompt or PowerShell window for the changes to take effect.
+
+
+Q16: Is indetation required in python?
+A16: Yes, it is very necessary to take care of indentation, as it defines the scope of the code block.
